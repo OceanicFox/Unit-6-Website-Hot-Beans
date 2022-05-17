@@ -1,0 +1,157 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	background-color: rgb(204, 204, 204);
+}
+
+#content {
+    width: 90%;
+	top:50%;
+    left:50%;
+	position: absolute;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#content {
+	font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 35px;   
+}
+ 
+.Course-Links {
+	display: inline-block;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    border: 1px solid rgb(1, 94, 1);
+    padding: 12px 28px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.Course-Links:hover {
+    border: 1px solid rgb(0, 148, 0);
+    background: rgb(1, 94, 1);
+    transition: 0.5s;
+}
+ 
+footer {
+	background-color: rgb(1, 94, 1);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;	
+	display: flex;
+}
+
+footer > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+}
+
+
+.heading {
+	padding-left: 20px;
+	display: inline-block;
+}
+
+
+ul {
+	list-style-type: None;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(1, 94, 1);
+}
+
+li {
+	display: inline-block;
+	float: none;
+	position: sticky;	
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: white;
+	color: green;
+}
+
+.selected {
+	background-color: white;
+	color: green;
+	font-weight: bold;
+}
+
+figure figcaption{
+	text-align: left;
+	border: 2px solid black;
+}
+
+figure img {
+	vertical-align: top;
+	border: 2px solid black;
+}
+
+
+figure {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+#other-other-two {
+	position: absolute;
+	right: 50%;
+	top: 20.5%;
+}
+
+#other-two {
+	position: absolute;
+	left: 50%;
+	top: 20.5%;
+}
+
+.JobSpecBTN{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    border: 1px solid rgb(1, 94, 1);
+    padding: 12px 28px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.JobSpecBTN:hover{
+    border: 1px solid rgb(0, 148, 0);
+    background: rgb(1, 94, 1);
+    transition: 0.5s;
+}
+
+#Form {
+	position: absolute;
+	left: 43%;
+	top: 43%;
+}
+
+#content {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+}
