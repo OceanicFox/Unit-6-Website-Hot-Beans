@@ -4,6 +4,7 @@ body {
 	background-attachment: fixed;
   	background-size: cover;
 	background-color: rgb(204, 204, 204);
+	margin: 0;
 }
 
 #content {
@@ -14,13 +15,11 @@ body {
     color: #fff;
     transform: translate(-50%,-50%);
     text-align: center;
-}
-
-#content {
 	font-size: 14px;
     color: rgb(0, 0, 0);
-    margin: 10px 0 35px;   
+    margin: 10px 0 35px;
 }
+
  
 .Course-Links {
 	display: inline-block;
@@ -36,13 +35,13 @@ body {
 
 .Course-Links:hover {
     border: 1px solid rgb(0, 148, 0);
-    background: rgb(1, 94, 1);
+    background: rgb(0, 153, 0);
     transition: 0.5s;
 }
  
 footer {
 	background-color: rgb(1, 94, 1);
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -54,7 +53,7 @@ footer > div {
 	flex: 1;
 	display: flex;
 	justify-content: center;
-	padding: 2em;
+	padding: 0px;
 }
 
 
@@ -67,15 +66,15 @@ footer > div {
 ul {
 	list-style-type: None;
 	margin: 0;
-	padding: 0;
+	background-color: rgb(0, 128, 0);
+	width: 97.9%;
 	overflow: hidden;
-	background-color: rgb(1, 94, 1);
 }
 
 li {
 	display: inline-block;
 	float: none;
-	position: sticky;	
+	position: relative;	
 }
 
 li a {
@@ -140,7 +139,7 @@ figure {
 
 .JobSpecBTN:hover{
     border: 1px solid rgb(0, 148, 0);
-    background: rgb(1, 94, 1);
+    background: rgb(0, 153, 0);
     transition: 0.5s;
 }
 
